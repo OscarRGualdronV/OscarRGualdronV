@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oscar Raúl Gualdrón Villamizar - Backend Developer</title>
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      --text-color: #f1f1f1;
+      --accent-color: #00c9a7;
+      --card-bg: rgba(255, 255, 255, 0.05);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-color);
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+      width: 100%;
+      gap: 2rem;
+    }
+
+    .sidebar {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: var(--card-bg);
+      padding: 1.5rem;
+      border-radius: 16px;
+    }
+
+    .sidebar img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--accent-color);
+      margin-bottom: 1rem;
+    }
+
+    .sidebar h2 {
+      margin: 0.5rem 0 0.2rem;
+    }
+
+    .sidebar p {
+      margin: 0.2rem 0;
+      font-size: 0.95rem;
+    }
+
+    .main {
+      flex: 3;
+      padding: 2rem;
+      background: var(--card-bg);
+      border-radius: 16px;
+    }
+
+    .main h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 0.5rem;
+    }
+
+    .main p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .technologies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .technologies span {
+      background-color: var(--accent-color);
+      color: #000;
+      padding: 0.5rem 1rem;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="https://avatars.githubusercontent.com/u/your_user_id" alt="Oscar Raúl Gualdrón Villamizar">
+      <h2>Oscar Raúl Gualdrón</h2>
+      <p>💻 Backend Developer</p>
+      <p>📍 Colombia</p>
+      <p>✉️ oscar@email.com</p>
+      <p>🔗 <a href="https://github.com/oscarraulgv" style="color: var(--accent-color);">GitHub</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/yourprofile" style="color: var(--accent-color);">LinkedIn</a></p>
+    </aside>
+
+    <main class="main">
+      <h1>Sobre mí</h1>
+      <p>💻 Desarrollador Backend con formación en ingeniería y enfoque en la creación de APIs escalables, eficientes y seguras. Manejo tecnologías modernas como <strong>Node.js, NestJS, Prisma, Docker, PostgreSQL, SQL, TypeScript, JavaScript y Python</strong>, aplicándolas en arquitecturas limpias y orientadas a buenas prácticas.</p>
+
+      <p>⚙️ Tengo experiencia en diseño y gestión de bases de datos relacionales, desarrollo modular y uso de contenedores para entornos de desarrollo y despliegue eficientes.</p>
+
+      <p>🚀 Me apasiona resolver problemas técnicos complejos, optimizar procesos y construir soluciones sólidas que aporten valor real a los proyectos. Trabajo con enfoque colaborativo, atención al detalle y una mentalidad de mejora continua.</p>
+
+      <p>🎓 Con base en Ingeniería Mecánica, combino pensamiento lógico y técnico con habilidades de programación para afrontar retos desde una perspectiva integral.</p>
+
+      <p>📚 Siempre en proceso de aprendizaje, manteniéndome actualizado con las últimas tendencias y herramientas del ecosistema backend.</p>
+
+      <h2>Tecnologías que uso</h2>
+      <div class="technologies">
+        <span>Node.js</span>
+        <span>NestJS</span>
+        <span>Prisma</span>
+        <span>Docker</span>
+        <span>PostgreSQL</span>
+        <span>TypeScript</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
