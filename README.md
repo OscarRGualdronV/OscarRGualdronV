@@ -35,7 +35,7 @@
   
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=OscarRGualdronV&show_icons=true&theme=dark&locale=en&layout=compact" alt="OscarRGualdronV Top Langs" /></p>
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 <p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=OscarRGualdronV&show_icons=true&theme=dark&locale=en" alt="OscarRGualdronV GitHub Stats" /></p>
 <br><br><br><br><br><br><br><br>
 
